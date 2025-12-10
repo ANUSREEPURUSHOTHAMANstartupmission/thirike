@@ -594,9 +594,15 @@ p {
   padding-bottom: 120px;
 }
 
+<<<<<<< HEAD
 /* .default-padding-top {
   padding-top: 120px;
 } */
+=======
+.default-padding-top {
+  padding-top: 120px;
+}
+>>>>>>> 0bdf5e35bf5d206166eafe62ed2ddad6dc3fb0e1
 
 .default-padding-bottom {
   padding-bottom: 120px;
