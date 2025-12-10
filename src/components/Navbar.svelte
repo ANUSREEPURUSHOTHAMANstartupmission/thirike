@@ -80,11 +80,8 @@
         <div style="font-family: Museo-Sans, sans-serif;" class="flex my-auto  {scrolled?'':''}">
             <a href="/"  class="md:flex cursor-pointer hidden px-4 py-3  md:py-1 uppercase   text-sm hover:text-green-900">Home</a>
             <a href="/#About"  class="md:flex page-scroll cursor-pointer hidden px-4 py-3  md:py-1 uppercase   text-sm hover:text-green-900">About</a>
-            <a href="/#FocusAreas"  class="md:flex page-scroll cursor-pointer hidden px-4 py-3  md:py-1 uppercase   text-sm hover:text-green-900">Focus Areas</a>
-            <a href="/#Timeline"  class="md:flex page-scroll cursor-pointer hidden px-4 py-3  md:py-1 uppercase   text-sm hover:text-green-900">Timeline</a>
-
-            
-            <a href="/#Eligibility" class="md:flex page-scroll hidden cursor-pointer  px-4 py-3  md:py-1 uppercase   text-sm hover:text-green-900">Eligibility</a>
+           
+            <a href="/#Apply" class="md:flex page-scroll hidden cursor-pointer  px-4 py-3  md:py-1 uppercase   text-sm hover:text-green-900">Apply Now</a>
             <!-- <a href="/leap-membership"  class="md:flex cursor-pointer hidden px-4 py-3  md:py-1 uppercase   text-sm">Partners</a> -->
            
         </div>
@@ -131,14 +128,9 @@
                     <li on:click="{()=> menu_open = !menu_open }" class="px-5 py-2 transform hover:bg-gray-400 transition duration-500 hover:scale-100 md:hidden flex">
                       <a href="/#About"  class="page-scroll cursor-pointer  font-bold uppercase  ">About</a>
                     </li>
-                    <li on:click="{()=> menu_open = !menu_open }" class="px-5 py-2 transform hover:bg-gray-400 transition duration-500 hover:scale-100 md:hidden flex">
-                      <a href="/#FocusAreas"  class="page-scroll cursor-pointer  font-bold uppercase ">FocusAreas</a>
-                    </li> 
+                   
                      <li on:click="{()=> menu_open = !menu_open }" class="px-5 py-2 transform hover:bg-gray-400 transition duration-500 hover:scale-100 md:hidden flex">
-                      <a href="/#Timeline"  class="page-scroll cursor-pointer  font-bold uppercase ">Timeline</a>
-                    </li> 
-                     <li on:click="{()=> menu_open = !menu_open }" class="px-5 py-2 transform hover:bg-gray-400 transition duration-500 hover:scale-100 md:hidden flex">
-                      <a href="/#Eligibility"  class="page-scroll cursor-pointer  font-bold uppercase ">Eligibility</a>
+                      <a href="/#Apply"  class="page-scroll cursor-pointer  font-bold uppercase ">Apply Now</a>
                     </li>
   
                     
