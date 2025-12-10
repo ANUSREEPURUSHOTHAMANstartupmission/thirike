@@ -1,0 +1,394 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from "../components/Navbar.svelte";
+
+---
+
+
+
+<Layout>
+
+<Navbar client:load></Navbar>
+      
+
+   
+
+    <!-- Start Preloader 
+    ============================================= -->
+    <div id="preloader">
+        <div id="tanda-preloader" class="tanda-preloader">
+            <div class="animation-preloader">
+                <div class="spinner"></div>
+                <div class="txt-loading">
+                    <span data-text-preloader="T" class="letters-loading">
+                        T
+                    </span>
+                    <span data-text-preloader="H" class="letters-loading">
+                        H
+                    </span>
+                    <span data-text-preloader="I" class="letters-loading">
+                        I
+                    </span>
+                    <span data-text-preloader="R" class="letters-loading">
+                        R
+                    </span>
+                    <span data-text-preloader="I" class="letters-loading">
+                        I
+                    </span>
+                     <span data-text-preloader="K" class="letters-loading">
+                        K
+                    </span>
+                     <span data-text-preloader="E" class="letters-loading">
+                        E
+                    </span>
+                </div>
+            </div>
+            <div class="loader">
+                <div class="row">
+                    <div class="col-3 loader-section section-left">
+                        <div class="bg"></div>
+                    </div>
+                    <div class="col-3 loader-section section-left">
+                        <div class="bg"></div>
+                    </div>
+                    <div class="col-3 loader-section section-right">
+                        <div class="bg"></div>
+                    </div>
+                    <div class="col-3 loader-section section-right">
+                        <div class="bg"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Preloader -->
+
+    <!-- Start Header Top 
+    ============================================= -->
+  
+
+   
+    <div class="banner-area auto-height text-color bg-gray inc-shape">
+        <div class="item">
+            <div class="container">
+                <div class="row align-center">
+                                    
+                    <div class="col-lg-6">
+                        <div class="content">
+                            <div class="wow fadeInDown mb-0 md:text-9xl text-4xl text-[#2c83ed] "><strong>THIRIKE</strong></div>
+                            <h3 class="wow md:text-2xl text-xl italic fadeInUp pt-0">The talent homecoming campaign</h3>
+                            <p class="wow fadeInLeft py-4">
+                                Are you currently employed in IT/ITeS sector outside Kerala?
+                                Have you ever considered moving back to Kerala for work?
+                                Then this page is for you.                           
+                            </p>
+                            <a class="btn circle btn-theme effect btn-md wow fadeInUp" href="#">Apply Now <i class="fas fa-long-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 thumb">
+                        <img class="wow fadeInUp" src="assets/img/thumb/3.png" alt="Thumb">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Banner -->
+
+    <!-- Star About Area
+    ============================================= -->
+    <div class="about-area inc-shape default-padding">
+        <div class="container">
+            <div class=" flex md:flex-row flex-col md:gap-20 gap-10 items-center justify-center my-auto">
+                <div class=" md:w-1/2 w-full">
+                    <div class="thumb">
+                        <img src="assets/img/about/1.jpg" alt="Thumb">
+                        <img src="assets/img/about/2.jpg" alt="Thumb">
+                    </div>
+                </div>
+                <div class=" md:w-1/2 w-full info">
+                    <h2 class="title">The talent homecoming campaign</h2>
+                    <p class="text-[17px] text-gray-700">
+                        Kerala's IT sector is at a pivotal moment.
+While our state is recognized for its exceptional quality of life and highly skilled
+workforce, we face a serious challenge: the outflow of our most valuable professionals.
+                    </p>
+                    <p class="pt-6 text-[17px] text-gray-700">
+                        There are an estimated 3 million Malayalis living in other states within India and
+approximately 2.2 million working abroad.
+We recognize this serious gap, and we are committed to turning the tide.
+                    </p>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+     <div class="video-area extra-padding text-center default-padding faq-area bg-gray bg-fixed shadow dark text-light" style="background-image: url(assets/img/banner/2.jpg);">
+        <div class="container">
+            <div class="content">
+                <div class="row">
+                    <div class="col-lg-8 offset-lg-2">
+                        <div class="py-20"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fixed Shpae Bottom -->
+        <div class="fixed-shape-bottom">
+            <img src="assets/img/shape/9.png" alt="Shape">
+        </div>
+        <!-- Fixed Shpae Bottom -->
+    </div>
+    <!-- End Video Area -->
+
+    <!-- Start Why Choose Us 
+    ============================================= -->
+    <div class="choose-us-area default-padding-bottom ">
+        <div class="container work-process-area">
+            <div class="items-box featured-services-area work-pro-items">
+                 <div class=" h-full grid md:grid-cols-2 grid-cols-1 gap-4">
+                    <!-- Single Item -->
+                    <div class=" single-item h-full">
+                        <div class="row h-full item">
+                           
+                            <div class="info h-full">
+                                <p class="text-[17px] text-center text-gray-700 text-wrap">
+                                    We are putting in active efforts to bring leading Multinational Corporations (MNCs) and global tech players to Kerala. As
+part of this drive, we have successfully facilitated the setup
+of 40+ technology companies in recent years.
+                                </p>
+                                <p class="pt-2 text-[17px] text-center text-gray-700">
+                                    We are in promising conversations with top-tier companies
+on a regular basis. While the corporate world highly values
+Keralite talent, the single biggest obstacle preventing us
+from bringing the best logos is the sustained availability of
+industry- ready talent within the state.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single Item -->
+                    <!-- Single Item -->
+                    <div class="item h-full">
+                        <div class="row h-full">
+                           
+                            <div class="info h-full">
+                                <p class="pt-2 text-[17px] text-center text-gray-700">
+                                   We understand that life in many other cities is often suboptimal, and many of you are dreaming of coming back to
+Kerala to be closer to family and culture.
+                                </p>
+                                <p class="text-[17px] text-center text-gray-700 py-2">
+                                   We know that there are a few factors that matter most to you in making this crucial decision
+
+                                    <ul class="text-[17px] list-disc list-outside list ps-4 text-gray-700">
+                                        <li class="">
+                                            A challenging career with complex projects
+                                        </li>
+                                        <li class="">
+                                            An enticing package that reflects your true marketvalue
+                                        </li>
+                                        <li class="">
+                                            Opportunities for career growth
+                                        </li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+            <div>
+                <p class="pt-6 text-center md:text-3xl text-xl">
+                    "Thirike" is a mission to solve the talent demand and supply problem that is critical to Kerala's next wave of growth in
+the technology sector
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+     <div class="works-about-area overflow-hidden">
+        <div class="container">
+            <div class="works-about-items default-padding">
+                <div class="row align-center">
+                    <div class="col-lg-6 info">
+                     
+                    <p class="text-[20px] text-gray-700 py-2">
+Thirike is designed exclusively for tech professionals of malayali diaspora currently employed in the IT/ITeS sector outside Kerala, with a desire to move back to Kerala.   
+                    </p>
+                    <p class="text-[17px] text-gray-700 py-2">
+                        "Thirike" is your platform to raise your hand and signal your interest in returning to Kerala.
+                    </p>
+                    <p class="text-[17px] text-gray-700 py-2">
+                        As we match your profile with the right opportunities, we enable you to plan your return to Kerala in the coming years.
+                    </p>
+                       
+                        <a class="btn btn-theme effect btn-sm">Talk to a consultant</a>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="thumb">
+                            <img src="assets/img/about/3.jpg" alt="Thumb">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+     <div class="featured-services-area  text-center py-24 bottom-less">
+      
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="site-heading text-center">
+                        <h2 class="title">Here’s how we make the connection</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="grid md:grid-cols-4 grid-cols-1 gap-4 h-full">
+                <!-- Single Item -->
+                <div class="single-item  h-full">
+                    <div class="item h-full">
+                        <i class="flaticon-cogwheel"></i>
+                        <h5 class="text-lg pb-2">Register Your Interest</h5>
+                        <p>
+                            We are asking you to fill out this form and express your interest
+                        </p>
+                    </div>
+                </div>
+                <!-- End Single Item -->
+                <!-- Single Item -->
+                <div class="single-item h-full ">
+                    <div class="item h-full">
+                        <i class="flaticon-cloud-storage"></i>
+                        <h5 class="text-lg pb-2">Creating a Curated Database</h5>
+                        <p>
+                              Your information will be compiled into a database, segmented
+based on your specific skill sets, and experience.
+                        </p>
+                    </div>
+                </div>
+                <!-- End Single Item -->
+                <!-- Single Item -->
+                <div class="single-item h-full">
+                    <div class="item h-full">
+                        <i class="flaticon-globe-grid"></i>
+                        <h5 class="text-lg pb-2">Controlled Access for Top Companies</h5>
+                        <p>
+                             This curated database will be made available to the
+recruiting teams of the visiting MNCs/GCCs in a controlled and confidential manner.
+                        </p>
+                    </div>
+                </div>
+                <!-- End Single Item -->
+                <!-- Single Item -->
+                <div class="single-item h-full">
+                    <div class="item h-full">
+                        <i class="flaticon-backup"></i>
+                        <h5 class="text-lg pb-2">Connecting You to Opportunities</h5>
+                        <p>
+                              This direct connection allows us to help them tailor and provide
+you with excellent in-office or remote roles that meet your expectations for package, growth, and
+challenge
+                        </p>
+                    </div>
+                </div>
+                <!-- End Single Item -->
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+     <div class="quick-contact-area ">
+        <div class="container">
+            <div class="quick-contact-items bg-cover text-light" style="background-image: url(assets/img/banner/7.jpg);">
+                <div class="row align-center">
+                    <div class="col-lg-8">
+                        <h4 class="sub-title">Take the first step</h4>
+                        <h2 class="title">It all starts with you. Fill out this form and participate in <strong>"Thirike"</strong>today.</h2>
+                    </div>
+                    <div class="col-lg-4 text-end">
+                        <a class="btn btn-light effect btn-md">Apply Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- End Work Process Area -->
+
+
+  
+
+
+    <!-- Start Footer 
+    ============================================= -->
+    <footer class="bg-dark text-light mt-24 ">
+      
+      
+        <div class="items-center justify-center my-auto flex">
+            <div class="container">
+                <div class="row items-center justify-center my-auto md:flex-row flex-col flex">
+                    <div class="col-md-6">
+                        <img src="/logo.svg" class="w-20 h-20 z-20">
+                    </div>
+                    <div class="col-md-6 text-end link"> 
+                        <p>Copyright © 2025 <a href="#">KSUM</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Footer Bottom -->
+    </footer>
+    <!-- End Footer -->
+
+
+</Layout>
+
+
+    <script is:inline>
+  document.querySelectorAll("a.page-scroll").forEach((anchor) => {
+    anchor.addEventListener("click", function (e) {
+      const href = anchor.getAttribute("href");
+      const targetId = href.replace(/^\/?#/, "");
+      const targetElement = document.getElementById(targetId);
+
+      if (targetElement) {
+        e.preventDefault();
+
+        targetElement.scrollIntoView({ behavior: "smooth" });
+
+        history.replaceState(null, null, window.location.pathname);
+      }
+    });
+  });
+
+  window.addEventListener("DOMContentLoaded", () => {
+    const hash = window.location.hash;
+    if (hash) {
+      const targetId = hash.replace("#", "");
+      const targetElement = document.getElementById(targetId);
+      if (targetElement) {
+        setTimeout(() => {
+          targetElement.scrollIntoView({ behavior: "smooth" });
+          history.replaceState(null, null, window.location.pathname);
+        }, 100);
+      }
+    }
+  });
+</script>
