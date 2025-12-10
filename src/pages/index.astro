@@ -1,0 +1,742 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from "../components/Navbar.svelte";
+
+---
+
+
+
+<Layout>
+
+<Navbar client:load></Navbar>
+      
+
+   
+
+    <!-- Start Preloader 
+    ============================================= -->
+    <div id="preloader">
+        <div id="tanda-preloader" class="tanda-preloader">
+            <div class="animation-preloader">
+                <div class="spinner"></div>
+                <div class="txt-loading">
+                    <span data-text-preloader="T" class="letters-loading">
+                        T
+                    </span>
+                    <span data-text-preloader="H" class="letters-loading">
+                        H
+                    </span>
+                    <span data-text-preloader="I" class="letters-loading">
+                        I
+                    </span>
+                    <span data-text-preloader="R" class="letters-loading">
+                        R
+                    </span>
+                    <span data-text-preloader="I" class="letters-loading">
+                        I
+                    </span>
+                     <span data-text-preloader="K" class="letters-loading">
+                        K
+                    </span>
+                     <span data-text-preloader="E" class="letters-loading">
+                        E
+                    </span>
+                </div>
+            </div>
+            <div class="loader">
+                <div class="row">
+                    <div class="col-3 loader-section section-left">
+                        <div class="bg"></div>
+                    </div>
+                    <div class="col-3 loader-section section-left">
+                        <div class="bg"></div>
+                    </div>
+                    <div class="col-3 loader-section section-right">
+                        <div class="bg"></div>
+                    </div>
+                    <div class="col-3 loader-section section-right">
+                        <div class="bg"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Preloader -->
+
+    <!-- Start Header Top 
+    ============================================= -->
+  
+
+   
+    <div class="banner-area auto-height text-color bg-gray inc-shape">
+        <div class="item">
+            <div class="container">
+                <div class="row align-center pt-24">
+                                    
+                    <div class="col-lg-6">
+                        <div class="content">
+                            <div class="wow fadeInDown mb-0 md:text-9xl text-4xl text-[#2c83ed] "><strong>THIRIKE</strong></div>
+                            <h3 class="wow md:text-2xl text-xl italic fadeInUp pt-0">The talent homecoming campaign</h3>
+                            <p class="wow fadeInLeft py-4">
+                                Are you currently employed in IT/ITeS sector outside Kerala?
+                                Have you ever considered moving back to Kerala for work?
+                                Then this page is for you.                           
+                            </p>
+                            <a class="btn circle btn-theme effect btn-md wow fadeInUp" href="#">Apply Now <i class="fas fa-long-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 ">
+                        <img class="wow fadeInUp" src="/img/h1.svg" alt="Thumb" class=" w-full h-full">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Banner -->
+
+    <!-- Star About Area
+    ============================================= -->
+    <div class="about-area inc-shape default-padding" id="About">
+        <div class="container">
+            <div class=" flex md:flex-row flex-col md:gap-20 gap-10 items-center justify-center my-auto">
+                <div class=" md:w-1/2 w-full">
+                    <div class="thumb">
+                        <img src="/img/a1.avif" alt="Thumb">
+                        <img src="/img/a2.avif" alt="Thumb">
+                    </div>
+                </div>
+                <div class=" md:w-1/2 w-full info">
+                    <h2 class="title">The talent homecoming campaign</h2>
+                    <p class="text-[17px] text-gray-700">
+                        Kerala's IT sector is at a pivotal moment.
+While our state is recognized for its exceptional quality of life and highly skilled
+workforce, we face a serious challenge: the outflow of our most valuable professionals.
+                    </p>
+                    <p class="pt-6 text-[17px] text-gray-700">
+                        There are an estimated 3 million Malayalis living in other states within India and
+approximately 2.2 million working abroad.
+We recognize this serious gap, and we are committed to turning the tide.
+                    </p>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+     <div class="video-area extra-padding text-center default-padding faq-area bg-gray bg-fixed shadow dark text-light" style="background-image: url(/img/bg1.jpg);">
+        <div class="container">
+            <div class="content">
+                <div class="row">
+                    <div class="col-lg-8 offset-lg-2">
+                        <div class="py-16"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fixed Shpae Bottom -->
+        <div class="fixed-shape-bottom">
+            <img src="assets/img/shape/9.png" alt="Shape">
+        </div>
+        <!-- Fixed Shpae Bottom -->
+    </div>
+    <!-- End Video Area -->
+
+    <!-- Start Why Choose Us 
+    ============================================= -->
+    <div class="choose-us-area default-padding-bottom " >
+        <div class="container work-process-area">
+            <div class="items-box featured-services-area work-pro-items">
+                 <div class=" h-full grid md:grid-cols-2 grid-cols-1 gap-8">
+                    <!-- Single Item -->
+                    <div>
+                        <div class=" single-item h-full">
+                            <div class=" h-full item">
+                            
+                                <div class="info h-full item-inner">
+                                    <p class="text-[17px] text-center text-gray-700 text-wrap">
+                                        We are putting in active efforts to bring leading Multinational Corporations (MNCs) and global tech players to Kerala. As part of this drive, we have successfully facilitated the setup of 40+ technology companies in recent years.
+                                    </p>
+                                    <p class="pt-2 text-[17px] text-center text-gray-700">
+                                        We are in promising conversations with top-tier companies on a regular basis. While the corporate world highly values Keralite talent, the single biggest obstacle preventing us from bringing the best logos is the sustained availability of industry- ready talent within the state.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single Item -->
+                    <!-- Single Item -->
+                    <div>
+                        <div class="single-item h-full">
+                            <div class=" item h-full">
+                            
+                                <div class="info h-full item-inner">
+                                    <p class="pt-2 text-[17px] text-center text-gray-700">
+                                    We understand that life in many other cities is often suboptimal, and many of you are dreaming of coming back to Kerala to be closer to family and culture.
+                                    </p>
+                                    <p class="text-[17px] text-center text-gray-700 py-2">
+                                    We know that there are a few factors that matter most to you in making this crucial decision
+
+                                        <ul class="text-[17px] list-disc list-outside list ps-4 text-gray-700">
+                                            <li class="">
+                                                A challenging career with complex projects
+                                            </li>
+                                            <li class="">
+                                                An enticing package that reflects your true marketvalue
+                                            </li>
+                                            <li class="">
+                                                Opportunities for career growth
+                                            </li>
+                                        </ul>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+            <div>
+                <p class="pt-6 text-center md:text-3xl text-xl">
+                    "Thirike" is a mission to solve the talent demand and supply problem that is critical to Kerala's next wave of growth in the technology sector
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+     <div class="works-about-area overflow-hidden" id="Apply">
+        <div class="container">
+            <div class="works-about-items default-padding">
+                <div class="row align-center">
+                    <div class="col-lg-6 info">
+                     
+                    <p class="text-[20px] text-gray-700 py-2">
+Thirike is designed exclusively for tech professionals of malayali diaspora currently employed in the IT/ITeS sector outside Kerala, with a desire to move back to Kerala.   
+                    </p>
+                    <p class="text-[17px] text-gray-700 py-2">
+                        "Thirike" is your platform to raise your hand and signal your interest in returning to Kerala.
+                    </p>
+                    <p class="text-[17px] text-gray-700 py-2">
+                        As we match your profile with the right opportunities, we enable you to plan your return to Kerala in the coming years.
+                    </p>
+                       
+                        <a class="btn btn-theme effect btn-sm w-fit zf_button_9456">Apply Now</a>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="thumb">
+                            <img src="/img/m1.jpg" alt="Thumb">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+     <div class="featured-services-area  text-center py-24 bottom-less">
+      
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="site-heading text-center">
+                        <h2 class="title">Here’s how we make the connection</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="grid md:grid-cols-4 grid-cols-1 gap-4 h-full">
+                <!-- Single Item -->
+                <div class="single-item  h-full">
+                    <div class="item h-full">
+                        <i class="flaticon-cogwheel"></i>
+                        <h5 class="text-lg pb-2">Register Your Interest</h5>
+                        <p>
+                            We are asking you to fill out this form and express your interest
+                        </p>
+                    </div>
+                </div>
+                <!-- End Single Item -->
+                <!-- Single Item -->
+                <div class="single-item h-full ">
+                    <div class="item h-full">
+                        <i class="flaticon-cloud-storage"></i>
+                        <h5 class="text-lg pb-2">Creating a Curated Database</h5>
+                        <p>
+                              Your information will be compiled into a database, segmented
+based on your specific skill sets, and experience.
+                        </p>
+                    </div>
+                </div>
+                <!-- End Single Item -->
+                <!-- Single Item -->
+                <div class="single-item h-full">
+                    <div class="item h-full">
+                        <i class="flaticon-globe-grid"></i>
+                        <h5 class="text-lg pb-2">Controlled Access for Top Companies</h5>
+                        <p>
+                             This curated database will be made available to the
+recruiting teams of the visiting MNCs/GCCs in a controlled and confidential manner.
+                        </p>
+                    </div>
+                </div>
+                <!-- End Single Item -->
+                <!-- Single Item -->
+                <div class="single-item h-full">
+                    <div class="item h-full">
+                        <i class="flaticon-backup"></i>
+                        <h5 class="text-lg pb-2">Connecting You to Opportunities</h5>
+                        <p>
+                              This direct connection allows us to help them tailor and provide
+you with excellent in-office or remote roles that meet your expectations for package, growth, and
+challenge
+                        </p>
+                    </div>
+                </div>
+                <!-- End Single Item -->
+            </div>
+        </div>
+    </div>
+
+
+
+     <div class="choose-us-style-ten-area default-padding-top pb-24 ">
+        <!-- Fixed Shape  -->
+        <div class="fixed-shape-right-bottom" style="background-image: url(assets/img/software/page-header-bg.svg);"></div>
+        <!-- End Fixed Shape  -->
+        <div class="container">
+            <div class="row align-center">
+               
+                <div class="choose-us-style-ten-item text-lg">
+                    <!-- <h2 class="title">Experience your Product with real time Integration</h2> -->
+                    <p>
+                        The spirit of the Malayali community is defined by a powerful sense of unity and an affection for our homeland. We believe this intrinsic connection now aligns perfectly with a period of unprecedented economic opportunity within
+Kerala.
+                    </p>
+                    <p class="py-2">
+                        Kerala is currently home to over 40 Global Capability Centers (GCCs) and is aggressively pursuing increased global investments. We observe a growing trend where successful tech founders of the Malayali diaspora are actively looking to expand their scale and operations within their home state.
+                    </p>
+                    <p>
+                        Beyond professional prospects, Kerala offers a truly exceptional quality of life. Our region benefits from superior air quality, access to clean water, and increasingly sophisticated urban infrastructure. Intercity connectivity is being revolutionized: the Kochi Metro, Kochi Water Metro, and the upcoming Thiruvananthapuram Metro will ensure seamless travel within major IT hubs. Furthermore, the signal-less corridor development of NH-66 promises to effectively integrate the entire state into a single large city.
+                    </p>
+                    <p class="py-2">
+                       With robust air connections offering daily domestic and international flights, coupled with the strategic importance
+of the Vizhinjam and Kochi shipping terminals, Kerala's intercontinental connectivity for business and travel is
+excellent.<br>
+We firmly believe this convergence of cultural pull, infrastructural maturity, and economic focus presents the
+optimal time for the Malayali diaspora to transition their careers back to the state.
+                    </p>
+                    <p class="text-center">
+                        We urge you to register with <span class="font-bold">'Thirike'</span> and become part of this movement in Kerala's history.
+                    </p>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+     <div class="quick-contact-area ">
+        <div class="container">
+            <div class="quick-contact-items bg-cover text-light" style="background-image: url(/img/l1.avif);">
+                <div class="row align-center">
+                    <div class="col-lg-8">
+                        <h4 class="sub-title">Take the first step</h4>
+                        <h2 class="title">It all starts with you. Fill out this form and participate in <strong>"Thirike"</strong>today.</h2>
+                    </div>
+                    <div class="col-lg-4 text-end">
+                        <a class="btn btn-light effect btn-md w-fit zf_button_9456">Apply Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- End Work Process Area -->
+     
+
+
+
+
+
+	
+
+
+  
+
+
+    <!-- Start Footer 
+    ============================================= -->
+    <footer class="bg-dark text-light mt-24 ">
+      
+      
+        <div class="items-center justify-center my-auto flex">
+            <div class="container">
+                <div class="row items-center justify-center my-auto md:flex-row flex-col flex">
+                    <div class="col-md-6">
+                        <img src="/logo.svg" class="w-20 h-20 z-20 pt-4">
+                    </div>
+                    <div class="col-md-6 text-end link"> 
+                        <p>Copyright © 2025 <a href="#">KSUM</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Footer Bottom -->
+    </footer>
+    <!-- End Footer -->
+</Layout>
+
+<script is:inline type="text/javascript">(function() {
+	try{
+
+			if( document.readyState == "complete" ){ 
+				onloadActions_9456();
+			}  else {
+			  	window.addEventListener('load', function (){
+			  		onloadActions_9456();
+			  	}, false);
+			}
+
+			function onloadActions_9456(){
+				constructDiv_9456();
+				
+			}
+
+			function constructDiv_9456(){
+				var iframeDiv = document.createElement("div");
+				iframeDiv.setAttribute('id','VyZlaSRQjmilGyYi9-mSF6hq6cNRBtQcutk5z8L_vv0_9456');
+				iframeDiv.setAttribute('class','zf_main_id_9456');
+
+				var closeFormDiv = document.createElement("div");
+				closeFormDiv.setAttribute('id','deleteform_9456');
+				closeFormDiv.setAttribute('class','zf_lb_closeform_9456');
+				closeFormDiv.setAttribute('tabindex', 0);
+				
+
+				var containerDiv = document.createElement("div");
+				containerDiv.setAttribute('id','containerDiv_9456');
+				containerDiv.setAttribute('class','zf_lB_Container_9456 ');
+				containerDiv.appendChild(iframeDiv);
+				containerDiv.appendChild(closeFormDiv);
+				
+				var wrapperDiv = document.createElement("div");
+				wrapperDiv.setAttribute('class','zf_lB_Wrapper_9456');
+				wrapperDiv.appendChild(containerDiv);
+
+
+				var dimmerDiv = document.createElement("div");
+				dimmerDiv.setAttribute('class','zf_lB_Dimmer_9456');
+				dimmerDiv.setAttribute('elname','popup_box');
+
+				var mainDiv = document.createElement("div");
+				mainDiv.setAttribute('id','formsLightBox_9456');
+				mainDiv.style.display = "none";
+				mainDiv.appendChild(wrapperDiv);
+				mainDiv.appendChild(dimmerDiv);
+
+				document.body.appendChild(mainDiv);
+
+			}
+
+			function showZForm_9456(){
+				var iframe = document.getElementById("VyZlaSRQjmilGyYi9-mSF6hq6cNRBtQcutk5z8L_vv0_9456").getElementsByTagName("iframe")[0];
+				if(iframe == undefined ||iframe.length == 0){
+					loadZForm_9456();
+					
+				} 
+				document.getElementById("formsLightBox_9456").style.display = "block"; 
+				document.body.style.overflow = "hidden";
+				setTimeout(function() {
+				    var containerDiv = document.getElementById("containerDiv_9456");
+				    containerDiv.setAttribute('tabindex', '-1');
+				    containerDiv.focus();
+				}, 100);
+			}
+
+			function deleteZForm_9456() {
+				var divCont = document.getElementById("formsLightBox_9456");
+				divCont.style.display="none";
+				document.body.style.overflow = "";
+
+				var iframe = document.getElementById("VyZlaSRQjmilGyYi9-mSF6hq6cNRBtQcutk5z8L_vv0_9456").getElementsByTagName("iframe")[0];
+				iframe.remove();
+			}
+
+			function loadZForm_9456() {
+				var iframe = document.getElementById("VyZlaSRQjmilGyYi9-mSF6hq6cNRBtQcutk5z8L_vv0_9456").getElementsByTagName("iframe")[0];
+				if(iframe == undefined ||iframe.length == 0){
+					var f = document.createElement("iframe");
+					f.src = getsrcurlZForm_9456('https://forms.zohopublic.com/keralastartupmission/form/Thirike1/formperma/VyZlaSRQjmilGyYi9-mSF6hq6cNRBtQcutk5z8L_vv0?zf_rszfm=1');
+				    
+					f.style.border="none";
+					f.style.minWidth="100%";
+					f.style.overflow="hidden";
+					var d = document.getElementById("VyZlaSRQjmilGyYi9-mSF6hq6cNRBtQcutk5z8L_vv0_9456");
+					d.appendChild(f);
+
+					var deleteForm = document.getElementById("deleteform_9456");
+					deleteForm.onclick =  deleteZForm_9456;
+					deleteForm.addEventListener("keydown", function (event) {
+						if (event.key === "Enter" || event.keyCode === 13 || event.key === " " || event.keyCode === 32) {
+							event.preventDefault();
+							deleteZForm_9456();
+						}
+					});
+
+					
+
+					window.addEventListener('message', function (){
+						var evntData = event.data;
+						if( evntData && evntData.constructor == String ){
+							var zf_ifrm_data = evntData.split("|");
+							if ( zf_ifrm_data.length == 2 || zf_ifrm_data.length == 3 ) {
+								var zf_perma = zf_ifrm_data[0];
+								var zf_ifrm_ht_nw = ( parseInt(zf_ifrm_data[1], 10) + 15 ) + "px";
+								var iframe = document.getElementById("VyZlaSRQjmilGyYi9-mSF6hq6cNRBtQcutk5z8L_vv0_9456").getElementsByTagName("iframe")[0];
+								if ( (iframe.src).indexOf('formperma') > 0 && (iframe.src).indexOf(zf_perma) > 0 ) {
+									var prevIframeHeight = iframe.style.height;
+
+									var zf_tout = false;
+									if( zf_ifrm_data.length == 3 ) {
+									    iframe.scrollIntoView();
+									    zf_tout = true;
+									}
+
+									if ( prevIframeHeight != zf_ifrm_ht_nw ) {
+										if( zf_tout ) {
+											setTimeout(function(){
+										        iframe.style.minHeight = zf_ifrm_ht_nw;
+												var containerDiv = document.getElementById("containerDiv_9456");
+												containerDiv.style.height=zf_ifrm_ht_nw;
+										    },500);
+										} else {
+										    iframe.style.minHeight = zf_ifrm_ht_nw;
+											var containerDiv = document.getElementById("containerDiv_9456");
+											containerDiv.style.height=zf_ifrm_ht_nw;
+										}
+									}
+								}
+							}
+						}
+
+					}, false);
+				}
+			}
+
+			
+
+			function getsrcurlZForm_9456(zf_src) {
+				try {
+					
+					if ( typeof ZFAdvLead !== "undefined" && typeof zfutm_zfAdvLead !== "undefined" ) {
+						for( var prmIdx = 0 ; prmIdx < ZFAdvLead.utmPNameArr.length ; prmIdx ++ ) {
+				        	var utmPm = ZFAdvLead.utmPNameArr[ prmIdx ];
+				        	var utmVal = zfutm_zfAdvLead.zfautm_gC_enc( ZFAdvLead.utmPNameArr[ prmIdx ] );
+					        if ( typeof utmVal !== "undefined" ) {
+					          if ( utmVal != "" ){
+					            if(zf_src.indexOf('?') > 0){
+					              zf_src = zf_src+'&'+utmPm+'='+utmVal;//No I18N
+					            }else{
+					              zf_src = zf_src+'?'+utmPm+'='+utmVal;//No I18N
+					            }
+					          }
+					        }
+				      	}
+					}
+
+					if ( typeof ZFLead !== "undefined" && typeof zfutm_zfLead !== "undefined" ) {
+						for( var prmIdx = 0 ; prmIdx < ZFLead.utmPNameArr.length ; prmIdx ++ ) {
+				        	var utmPm = ZFLead.utmPNameArr[ prmIdx ];
+				        	var utmVal = zfutm_zfLead.zfutm_gC_enc( ZFLead.utmPNameArr[ prmIdx ] );
+					        if ( typeof utmVal !== "undefined" ) {
+					          if ( utmVal != "" ){
+					            if(zf_src.indexOf('?') > 0){
+					              zf_src = zf_src+'&'+utmPm+'='+utmVal;//No I18N
+					            }else{
+					              zf_src = zf_src+'?'+utmPm+'='+utmVal;//No I18N
+					            }
+					          }
+					        }
+				      	}
+					}
+				}catch(e){}
+				return zf_src;
+			}
+			var buttonElems = document.getElementsByClassName("zf_button_9456");
+
+            for (var i = 0; i < buttonElems.length; i++) {
+                buttonElems[i].style.display = "block";
+                buttonElems[i].addEventListener("click", showZForm_9456);
+            }
+
+		
+			
+	}catch(e){}
+})();
+</script>	
+
+<style is:global>
+
+.zf_lB_Dimmer_9456{ 
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: rgb(0, 0, 0);
+    opacity: 0.8;
+    z-index: 10000000;
+}
+
+.zf_lB_Container_9456{
+	position: fixed;
+	background-color: white;
+	margin: 0;
+	margin-right: 0px;
+	padding: 0;
+	height: 535px;
+	width:  50%;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	border: 7px solid none;
+	max-height: calc(100% - 60px);
+	z-index: 999999;
+	transition: height 0.5s ease;
+	outline : none;
+}
+
+p{
+margin-bottom: 10px;
+}
+
+.zf_lB_Wrapper_9456{
+	position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: 0;
+    margin-top: -180px;
+    z-index: 10000001;
+}
+
+.zf_main_id_9456{
+	height: calc(100% - 0px);
+	display: flex;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.zf_lb_closeform_9456 {
+    position: absolute;
+    right: -20px;
+    background: #2f2e2e;
+    padding: 0;
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    top: -15px;
+    cursor: pointer;
+    border: 2px solid #d9d9d9;
+}
+.zf_lb_closeform_9456:before, .zf_lb_closeform_9456:after {
+    position: absolute;
+    left: 16px;
+    content: ' ';
+    height: 19px;
+    width: 2px;
+    top: 7px;
+    background-color: #f7f7f7;
+}
+
+.zf_lb_closeform_9456:before {
+  transform: rotate(45deg);
+}
+.zf_lb_closeform_9456:after {
+  transform: rotate(-45deg);
+} 
+
+
+
+@media screen and (min-device-width: 10px) and (max-device-width: 380px) {  
+   .zf_lB_Container_9456 {
+  width: 270px !important;
+} 
+}
+
+@media screen and (min-device-width: 360px) and (max-device-width: 480px) {  
+   .zf_lB_Container_9456 {
+  width: 350px !important;
+} 
+}
+
+@media screen and (min-device-width: 440px) and (max-device-width: 500px) {  
+   .zf_lB_Container_9456 {
+  width: 380px !important;
+} 
+}
+
+@media only screen  and (min-width:500px) and (max-width:600px)  {  
+ 	.zf_lB_Container_9456 {
+	width: 450px;
+ }
+}
+
+@media only screen  and (min-width:601px) and (max-width:700px)  {  
+ 	.zf_lB_Container_9456 {
+	width: 540px;
+ }
+}
+
+@media only screen  and (min-width:700px) and (max-width:800px)  { 
+.zf_lB_Container_9456 {
+	width: 650px;
+ }
+}
+
+@media screen and (min-device-width: 801px) and (max-device-width: 1268px) {  
+   .zf_lB_Container_9456 {
+  width: 750px !important;
+} 
+}
+
+</style> 
+    <script is:inline>
+  document.querySelectorAll("a.page-scroll").forEach((anchor) => {
+    anchor.addEventListener("click", function (e) {
+      const href = anchor.getAttribute("href");
+      const targetId = href.replace(/^\/?#/, "");
+      const targetElement = document.getElementById(targetId);
+
+      if (targetElement) {
+        e.preventDefault();
+
+        targetElement.scrollIntoView({ behavior: "smooth" });
+
+        history.replaceState(null, null, window.location.pathname);
+      }
+    });
+  });
+
+  window.addEventListener("DOMContentLoaded", () => {
+    const hash = window.location.hash;
+    if (hash) {
+      const targetId = hash.replace("#", "");
+      const targetElement = document.getElementById(targetId);
+      if (targetElement) {
+        setTimeout(() => {
+          targetElement.scrollIntoView({ behavior: "smooth" });
+          history.replaceState(null, null, window.location.pathname);
+        }, 100);
+      }
+    }
+  });
+</script>
